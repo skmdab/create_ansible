@@ -40,6 +40,13 @@
       src: filinta.pem  
       dest: /home/ansible/
 
+  - name: Change owner and group permissions
+    file:
+      path: /home/ansible/filinta.pem  
+      owner: ansible
+      group: ansible  
+      mode: "0700"
+
   - name: Append text to file
     blockinfile:
       path: /etc/ansible/hosts
