@@ -34,11 +34,6 @@
      dest: /etc/sudoers.d/ansible
      content: 'ansible ALL=(ALL) NOPASSWD: ALL' 
      validate: /usr/sbin/visudo -cf %s
-  
-  - name: copy file
-    copy:
-      src: filinta.pem  
-      dest: /home/ansible/
 
   - name: Change owner and group permissions
     file:
