@@ -1,6 +1,6 @@
-# Create Jenkins
+# Create Ansible
 
-This repository contains scripts and configurations for deploying a Jenkins instance on AWS.
+This repository contains scripts and configurations for deploying a Ansible instance on AWS.
 
 ## Prerequisites
 
