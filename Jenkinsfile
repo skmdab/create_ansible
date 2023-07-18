@@ -17,7 +17,9 @@ pipeline{
 
         stage('Installing ansible package into server'){
             steps{
-                sh "ansible-playbook installansible.yaml"
+                withCredentials([file(credentialsId: 'pemfile', variable: 'PEMFILE')]) {
+		   sh 'ansible-playbook installansible.yaml --private-key="$PEMFILE"'
+		}
             }
         }
     }
