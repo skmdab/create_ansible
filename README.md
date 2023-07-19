@@ -1,4 +1,4 @@
-# Create Ansible
+# Create Ansible  <p align="right"> <a href="https://docs.ansible.com/ansible/latest/index.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="ansible" width="80" height="80"/> </a> </p>
 
 This repository contains scripts and configurations for deploying a Ansible instance on AWS.
 
