@@ -39,7 +39,7 @@ INSTANCETYPE=t2.micro
 
 AMI_ID=ami-00f898fc5c0fb69d1
 
-ZONE=subnet-0f7ec0ece3a873bb1
+ZONE=sg-03bb6875a1b042766
 
 COUNTS=1
 
