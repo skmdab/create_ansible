@@ -1,5 +1,5 @@
 ---
-- hosts: hosts
+- hosts: ansible
   become: true
   tasks:
   - name: Install epel release package for extra pacakages
